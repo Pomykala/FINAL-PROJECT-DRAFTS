@@ -17,7 +17,7 @@ class Password{
   }
   validPrivateKey(){
     if(this.privatekey[4] == "-" && this.privatekey[9] == "-"){
-      if intenger=<100
+      
 
     }
   }

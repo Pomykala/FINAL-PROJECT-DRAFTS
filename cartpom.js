@@ -24,5 +24,9 @@ class Cart{
   {
     let subCart = new Cart([],[]);
     for (let i = 0; i < itemList.length; i++)
+    if(this.itemList[i].shipping==days){
+      subCart.push([i])
+    }
+    return subCart;
   }
 }
