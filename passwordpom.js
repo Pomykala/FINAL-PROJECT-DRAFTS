@@ -1,3 +1,6 @@
+//I googled half of this for the functions.  just so you know and i still dont understand some of them 
+
+
 class Password{
   //The first part of the class.
   constructor(p, pk){
@@ -17,7 +20,7 @@ class Password{
   }
   validPrivateKey(){
     if(this.privatekey[4] == "-" && this.privatekey[9] == "-"){
-      
+
 
     }
   }
